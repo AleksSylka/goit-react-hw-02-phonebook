@@ -10,7 +10,7 @@ li:nth-child(n+1) {
     margin-top: 20px;
 }
 
-button {
+.btn-list {
     display: block;
     font-size: 18px;
     padding: 10px;

@@ -33,11 +33,11 @@ class App extends Component {
   render() {
     return (
       <>
-        <h1>Phonebook</h1>
+        <h1 className={css['text']}>Phonebook</h1>
         
         <Form onSubmit={this.formData} />
         
-        <h2>Contacts</h2>
+        <h2 className={css['text']}>Contacts</h2>
         
         <Filter onChange={this.filterInput} />
         

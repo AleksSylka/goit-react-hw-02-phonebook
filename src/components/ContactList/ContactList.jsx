@@ -3,14 +3,13 @@ import PropTypes from 'prop-types';
 import css from './contactList.module.css'
 
 const ConractList = ({arr, onDeletContact}) => (
-    <ul>
+    <ul className={css['list']}>
         {arr.map(({ id, name, number }) => (
             <ContactItem key={id}
                 name={name}
                 number={number}
                 onDeletContact={onDeletContact}
             />))}
-
     </ul>
 )
 
